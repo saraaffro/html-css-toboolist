@@ -27,3 +27,43 @@ header span{
 
 
 /* stile main */
+main{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#container{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
+    min-height: 200px;
+}
+
+/* sezione opzioni */
+#options{
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    border-bottom: solid lightgray 1px;
+}
+
+.add{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#task{
+    background-color: rgb(40, 198, 251);
+    border: solid rgb(40, 198, 251) 1px;
+    color: white;
+}
+
+#add_section{
+    color: lightgray;
+    border: solid lightgray 1px;
+}
+
+/* sezione new task */
