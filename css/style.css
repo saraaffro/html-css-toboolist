@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* stile header */
@@ -90,14 +91,6 @@ main{
     margin-bottom: 15px;
 }
 
-.theme{
-    font-size: 13px;
-    background-color: rgb(40, 198, 251);
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-}
-
 .symbol{
     color: rgb(71, 197, 125);
     border: solid  rgb(71, 197, 125) 1px;
@@ -106,6 +99,62 @@ main{
     font-size: 15px;
 }
 
+.notsymbol{
+    color: rgb(244, 54, 54);
+    border: solid  rgb(244, 54, 54) 1px;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.theme_editorial{
+    font-size: 13px;
+    background-color: rgb(40, 198, 251);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.theme_q1goals{
+    font-size: 13px;
+    background-color: rgb(137, 36, 191);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.theme_recruiting{
+    font-size: 13px;
+    background-color: rgb(71, 197, 125);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.theme_mobile{
+    font-size: 13px;
+    background-color: rgb(246, 153, 38);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.theme_website{
+    font-size: 13px;
+    background-color: rgb(232, 87, 200);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.theme_sales{
+    font-size: 13px;
+    background-color: rgb(122, 158, 113);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
 #last{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
