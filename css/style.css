@@ -53,6 +53,9 @@ main{
 .add{
     border-radius: 5px;
     padding: 5px;
+    width: 13%;
+    height: 35px;
+    cursor: pointer;
 }
 
 #task{
@@ -64,6 +67,7 @@ main{
 #add_section{
     color: lightgray;
     border: solid lightgray 1px;
+    background-color: white;
 }
 
 /* sections */
